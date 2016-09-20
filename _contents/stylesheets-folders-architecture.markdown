@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Stylesheets Folder Architecture"
-permalink: /contents/class-naming-convention
+permalink: /contents/stylesheets-folder-architecture
 ---
 
 The CSS rules should be organized in four folders, organized in different folders. These categories are listed below from the most generic to the more specific (the alphabetical order matches this same order for practical purposes).

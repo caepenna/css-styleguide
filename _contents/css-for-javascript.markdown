@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "CSS for JavaScript"
-permalink: /contents/class-naming-convention
+permalink: /contents/css-for-javascript
 ---
 
 ### Don't use CSS classes to query for DOM elements on JavaScript.

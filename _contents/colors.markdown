@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Colors"
-permalink: /contents/class-naming-convention
+permalink: /contents/colors
 ---
 
 Prefer hexadecimal color codes `#f7931e` with lowercase letters and abbreviate them to three characters when possible `#f36`.

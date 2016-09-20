@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Units"
-permalink: /contents/class-naming-convention
+permalink: /contents/units
 ---
 
 ### Units for `font-size`

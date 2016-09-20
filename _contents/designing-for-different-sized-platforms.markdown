@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Designing for different sized plataforms"
-permalink: /contents/class-naming-convention
+permalink: /contents/designing-for-different-sized-plataforms
 ---
 
 Responsive web design is not only the adaptation of the user experience to mobile devices, but designing and developing for every possible resolution and ratio of screen.

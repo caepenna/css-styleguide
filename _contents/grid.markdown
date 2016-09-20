@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Grid"
-permalink: /contents/class-naming-convention
+permalink: /contents/grid
 ---
 
 ### Column grid
