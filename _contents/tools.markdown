@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Tools"
 permalink: /contents/tools
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Stylesheets Folder Architecture"
 permalink: /contents/stylesheets-folder-architecture
 ---

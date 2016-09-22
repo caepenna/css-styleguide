@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<div class="home">
+<div class="wrapper">
+  <div class="main-content">
+  <h1>Best practices for writing CSS at Flama.me</h1>
+  <div class="intro">
+    <p>How do I know these are the best practices? Because we tried several different approaches and this is the one that currently works better for us. We are still trying other approaches and we he iterate this repository weekly ;)</p>
 
-  <h1>Home</h1>
+    <h2>Contributing to the guide</h2>
+    <p>This guide contains our best practices and suggestions that fit our work environment.
+    Please be welcome to fork and/or make Pull Requests with suggestions, new topics, correcting us on typos, grammar, wrong assumptions, broken links, unclear text, etc.
+    PR should contain a short description explaining what is and why is it important.</p>
 
-  <h2>Best practices for writing CSS at Flama.me</h2>
-  <ul>
-    {% for content in site.contents %}
-      <li><a href="{{ content.url }}">{{content.title}}</a></li>
-    {% endfor %}
-  </ul>
+    <p>Or get in touch trough our <a href="http://www.flama.me/pt">site</a></p>
+    
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% include nav.html %}
 
-</div>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
