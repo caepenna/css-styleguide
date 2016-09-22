@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Grid"
 permalink: /contents/grid
 ---

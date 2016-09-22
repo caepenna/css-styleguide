@@ -4,6 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-#Get in Touch
+### Get in Touch
 
 [Our E-mail](contas@flama.me)

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Class Naming Convention"
 permalink: /contents/class-naming-convention
 ---

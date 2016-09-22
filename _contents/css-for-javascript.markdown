@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "CSS for JavaScript"
 permalink: /contents/css-for-javascript
 ---

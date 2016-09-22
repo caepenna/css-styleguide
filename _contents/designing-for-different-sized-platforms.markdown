@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Designing for different sized plataforms"
 permalink: /contents/designing-for-different-sized-plataforms
 ---

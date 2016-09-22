@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Typography"
 permalink: /contents/typography
 ---

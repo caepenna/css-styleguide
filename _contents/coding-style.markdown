@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content
 title:  "Coding Style"
 permalink: /contents/coding-style
 ---
