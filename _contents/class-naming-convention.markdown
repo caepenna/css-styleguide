@@ -2,6 +2,7 @@
 layout: content
 title:  "Class Naming Convention"
 permalink: /contents/class-naming-convention
+description: How to name your CSS classes
 ---
 
 For most of our overall CSS architecutre, and specially for our class naming convention, we'll be using [RSCSS](http://rscss.io).

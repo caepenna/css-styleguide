@@ -8,8 +8,8 @@
 # Site settings
 title: Flama CSS StyleGuide
 email: contas@flama.me
-description: 
-baseurl: "/css-styleguide" # the subpath of your site, e.g. /blog
+description: Best practices for using CSS
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: studioflama
 github_username:  flama
