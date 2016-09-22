@@ -16,3 +16,8 @@ github_username:  flama
 
 # Build settings
 markdown: kramdown
+permalink: /title
+
+collections:
+  contents:
+    output: true
