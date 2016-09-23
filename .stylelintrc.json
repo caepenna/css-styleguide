@@ -46,7 +46,8 @@
     "color-no-invalid-hex": true,
     "indentation": 2,
     "max-nesting-depth": 3,
-    "no-indistinguishable-colors": true
+    "no-indistinguishable-colors": [true, {
+      "threshold": 3
+    }]
   }
 }
-

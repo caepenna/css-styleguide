@@ -4,11 +4,13 @@
   padding-bottom: 2rem;
 
   > .wrapper {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     width: calc(40vw + 10em);
     max-width: calc(100% - 4em);
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+    display: block;
 
     >*:first-child {
       margin-top: 0;
