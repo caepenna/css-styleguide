@@ -4,8 +4,6 @@ title:  "Typography"
 permalink: /contents/typography
 ---
 
-# Typography
-
 In a project, the rules for typography should be pre-defined and systematic. By doing this it makes sure the overall look and feel is consistent and also prevents problems in the user experience.
 
 ## Font families

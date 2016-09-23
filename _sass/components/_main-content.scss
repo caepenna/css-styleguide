@@ -1,11 +1,19 @@
 .main-content {
 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
   > .wrapper {
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: calc(40vw + 10em);
     max-width: calc(100% - 4em);
+
+    >*:first-child {
+      margin-top: 0;
+    }
+
   }
 
 }

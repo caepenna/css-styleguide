@@ -22,3 +22,19 @@ navigation:
   url: /contents/class-naming-convention
 - text: Coding Style
   url: /contents/coding-style
+- text: Colors
+  url: /contents/colors
+- text: CSS for JavaScript
+  url: /contents/css-for-javascript
+- text: Designing for different sized plataforms
+  url: /contents/designing-for-different-sized-plataforms
+- text: Grid
+  url: /contents/grid
+- text: Stylesheets Folder Architecture
+  url: /contents/stylesheets-folder-architecture
+- text: Tools
+  url: /contents/tools
+- text: Typography
+  url: /contents/typography
+- text: Units
+  url: /contents/units
