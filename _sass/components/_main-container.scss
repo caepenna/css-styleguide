@@ -1,13 +1,18 @@
 .main-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
 
-  .main-content {
+  flex-direction: column;  
+
+  @media #{$large-up} {
+    flex-direction: row;
+  }
+
+  > .main-content {
     flex-basis: 80%;
   }
 
-  .sidebar-nav {
+  > .sidebar-nav {
     flex-basis: 20%;
 
   }
