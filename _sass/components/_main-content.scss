@@ -1,12 +1,10 @@
 .main-content {
 
-  overflow: hidden;
-
   > .wrapper {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: calc(50vw + 20em);
+    width: calc(40vw + 10em);
     max-width: calc(100% - 4em);
   }
 

@@ -58,3 +58,18 @@ h6 {
   font-size: $font-size-deci;
   line-height: $line-height-deci;
 }
+
+pre {
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+
+ margin-right: -1rem;
+ margin-left: -1rem;
+
+ padding: 1rem;
+
+ background-color: hsl(0, 0%, 95%);
+}
