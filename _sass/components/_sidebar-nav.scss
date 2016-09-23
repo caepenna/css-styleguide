@@ -1,20 +1,20 @@
 .sidebar-nav {
 
   > a {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     
     display: block;
 
     color: hsl(0, 0%, 60%);
 
     &:not(:first-child) {
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
 
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      font-size: $font-size-deci;
+      font-size: $font-size-centi;
       line-height: $line-height-deci;
       font-weight: 600;
 

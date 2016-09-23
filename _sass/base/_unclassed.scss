@@ -59,5 +59,8 @@ pre {
  border-radius: 4px;
  font-size: $font-size-base;
  line-height: $line-height-base;
- font-family: $font-family-mono;
+
+  & * {
+    font-family: $font-family-mono;
+  }
 }
