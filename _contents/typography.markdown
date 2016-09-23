@@ -4,9 +4,11 @@ title:  "Typography"
 permalink: /contents/typography
 ---
 
+# Typography
+
 In a project, the rules for typography should be pre-defined and systematic. By doing this it makes sure the overall look and feel is consistent and also prevents problems in the user experience.
 
-### Font families
+## Font families
 
 A project can have as many font families as you like, but each one of them must have a "reason to be". There should not be an extra font family for no reason, if there is no specific need or advantage for using it.
 
@@ -61,7 +63,7 @@ h6 {
 }
 ```
 
-### Font size & line height variables
+## Font size & line height variables
 
 For font size and line height values, the variables should be set the way exemplified below. The variable names should also refer to its use, whether it's a body text (`$font-size-body` for `p`) or a heading (`$font-size-h2` for `h2`). This way we understand the use and necessity of the variable directly from reading its name.
 
@@ -197,7 +199,7 @@ Avoid the need for repeating a font size variable in your code. Preferably, it s
 }
 ```
 
-### Font weight
+## Font weight
 
 The font weight value should be declared in numbers (e.g.: `100`), the only valid number ins CSS are multiples of 100, from 100 to 900.
 

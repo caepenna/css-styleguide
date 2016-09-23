@@ -1,21 +1,12 @@
-.main-container {
-  background-color: bisque;
-
-  > .main-content {
-  }
-}  
-
-
 @media only screen and (min-width: 640px) {
   .main-container {
-    background-color: aqua;
-      > .main-content {
-        margin-left: 20vw;
-      }
-    
-      > .sidebar-nav {
-      position: fixed;
-      width: 20vw;
+    > .main-content {
+      margin-left: 20vw;
+    }
+  
+    > .sidebar-nav {
+    position: fixed;
+    width: 20vw;
     }
   }
 }
