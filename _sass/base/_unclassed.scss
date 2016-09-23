@@ -31,9 +31,10 @@ blockquote {
 }
 
 pre {
- margin-right: -1rem;
- margin-left: -1rem;
- padding: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-right: -1rem;
+  margin-left: -1rem;
 
  white-space: pre-wrap;
  white-space: -moz-pre-wrap;
