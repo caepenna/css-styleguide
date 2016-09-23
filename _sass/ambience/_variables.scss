@@ -1,11 +1,36 @@
+// Colors
+$color-highlight: #36f;
 
-// Defining values
+// Font Size
+$font-size-mega: 3em;
+$font-size-kilo: 2em;
+$font-size-hecto: 1.6em;
+$font-size-deca: 1.3em;
+$font-size-base: 1em;
+$font-size-deci: 0.75em;
+$font-size-centi: 0.625em;
+
+// Line Height
+$line-height-mega: 3.5rem;
+$line-height-kilo: 3rem;
+$line-height-hecto: 2.5rem;
+$line-height-deca: 2rem;
+$line-height-base: 1.5rem;
+$line-height-deci: 1rem;
+$line-height-centi: 0.5rem;
+
+// Font Families
+$font-family-body: 'Open Sans', Arial, sans-serif;;
+$font-family-title: 'Montserrat', 'Gotham', Helvetica sans-serif;;;
+$font-family-mono: 'Inconsolata', monospace;
+
+// Device Sizes
 $mobile:   40em;       /* 640px */
 $tablet:  40.063em;  /* 641px */
 $desktop:   64.063em;  /* 1025px */
 $desktop-large:  90.063em; /* 1441px */
 
-// Defining media queries
+// Media queries
 $mobile-only:   "only screen and (max-width: #{$mobile} )" !default;
 $mobile-up:     "only screen and (min-width: #{$mobile} )" !default;
 $tablet-only:   "only screen and (min-width: #{$tablet} ) and (max-width: #{$desktop} )" !default;
@@ -13,13 +38,3 @@ $tablet-up:     "only screen and (min-width: #{$tablet} )" !default;
 $desktop-only:  "only screen and (min-width: #{$desktop}) and (max-width: #{$desktop-large} )" !default;
 $desktop-up:    "only screen and (min-width: #{$desktop})" !default;
 $desktop-large-up: "only screen and (min-width: #{$desktop-large})" !default;
-
-// Calling media queries
-//
-// @media #{$mobile-only} { ... }
-// @media #{$mobile-up} { ... }
-// @media #{$tablet-only} { ... }
-// @media #{$tablet-up} { ... }
-// @media #{$desktop-only} { ... }
-// @media #{$desktop-up} { ... }
-// @media #{$desktop-large-up} { ... }

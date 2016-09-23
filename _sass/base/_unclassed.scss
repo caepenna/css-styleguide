@@ -3,10 +3,31 @@ html {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
+  font-family: $font-family-body;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+p > a {
+  color: #000;
+  position: relative;
+  background-color: rgba($color-highlight, 0.1);
+
+  &:hover {
+  background-color: rgba($color-highlight, 0.3);
+  }
+}
+
+blockquote {
+  margin: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid hsl(0, 0%, 80%);
+
+  font-style: italic;
+  color: hsl(0, 0%, 60%);
 }
 
 pre {
@@ -22,4 +43,7 @@ pre {
 
  background-color: hsl(0, 0%, 95%);
  border-radius: 4px;
+ font-size: $font-size-base;
+ line-height: $line-height-base;
+ font-family: $font-family-mono;
 }
