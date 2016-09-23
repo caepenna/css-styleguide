@@ -10,28 +10,26 @@ html {
 }
 
 p > a {
-  color: #000;
   position: relative;
+  color: #000;
   background-color: rgba($color-highlight, 0.1);
 
   &:hover {
-  background-color: rgba($color-highlight, 0.3);
+    background-color: rgba($color-highlight, 0.3);
   }
 }
 
 ul {
   >li {
+    margin-top: 0.5rem;
     font-size: $font-size-base;
     line-height: $line-height-base;
-    margin-top: 0.5rem;
   }
   >li:before {
-    content: "•";
     padding-right: 0.5rem;
+    content: "•";
   }
 }
-
-
 
 blockquote {
   margin: 0;
@@ -49,15 +47,15 @@ pre {
   margin-right: -1rem;
   margin-left: -1rem;
 
- white-space: pre-wrap;
- white-space: -moz-pre-wrap;
- white-space: -pre-wrap;
- white-space: -o-pre-wrap;
- word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 
- background-color: hsl(0, 0%, 95%);
- border-radius: 4px;
- font-size: $font-size-base;
- line-height: $line-height-base;
- font-family: $font-family-mono;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-family: $font-family-mono;
+  
+  background-color: hsl(0, 0%, 95%);
 }
