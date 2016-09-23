@@ -14,3 +14,11 @@ permalink: /title
 collections:
   contents:
     output: true
+     
+navigation:
+- text: Flama’s CSS Styleguide
+  url: /
+- text: Class Naming Convention
+  url: /contents/class-naming-convention
+- text: Coding Style
+  url: /contents/coding-style

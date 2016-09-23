@@ -1,6 +1,15 @@
 <nav class="sidebar-nav">
-  <a href="/">Flama’s CSS Styleguide</a>
-  {% for content in site.contents %}
+  <!--<a href="/">Flama’s CSS Styleguide</a>-->
+  
+  {% for link in site.navigation %}
+      {% assign current = nil %}
+      {% if page.url == link.url %}
+        {% assign current = 'current' %}
+      {% endif %}
+        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+    {% endfor %}
+    
+  <!--{% for content in site.contents %}
     <a href="{{ content.url }}" class="">{{content.title}}</a></li>
-  {% endfor %}
+  {% endfor %}-->
 </nav>
