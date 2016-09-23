@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  .main-content {
+    flex-grow: 3;
+  }
+
+  .sidebar-nav {
+    flex-grow: 1;
+
+  }
+
+}
