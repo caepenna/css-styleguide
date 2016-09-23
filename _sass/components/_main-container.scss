@@ -1,14 +1,14 @@
 .main-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 
   .main-content {
-    flex-grow: 3;
+    flex-basis: 80%;
   }
 
   .sidebar-nav {
-    flex-grow: 1;
+    flex-basis: 20%;
 
   }
-
 }

@@ -1,7 +1,12 @@
-.main-wrapper {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: calc(50% + 20em);
-  max-width: calc(100% - 2em);
+.main-content {
+
+  .wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(50% + 20em);
+    max-width: calc(100% - 2em);
+  }
+
+
 }
