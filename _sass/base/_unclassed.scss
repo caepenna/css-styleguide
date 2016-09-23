@@ -9,67 +9,17 @@ html {
   box-sizing: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-weight: inherit;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin: 0;
-  font-size: $font-size-base;
-  line-height: $line-height-base;
-}
-
-h1 {
-  font-size: $font-size-mega;
-  line-height: $line-height-mega;
-}
-
-h2 {
-  font-size: $font-size-kilo;
-  line-height: $line-height-kilo;
-}
-
-h3 {
-  font-size: $font-size-hecto;
-  line-height: $line-height-hecto;
-}
-
-h4 {
-  font-size: $font-size-deca;
-  line-height: $line-height-deca;
-}
-
-h5 {
-  font-size: $font-size-base;
-  line-height: $line-height-base;
-}
-
-h6 {
-  font-size: $font-size-deci;
-  line-height: $line-height-deci;
-}
-
 pre {
+ margin-right: -1rem;
+ margin-left: -1rem;
+ padding: 1rem;
+
  white-space: pre-wrap;
  white-space: -moz-pre-wrap;
  white-space: -pre-wrap;
  white-space: -o-pre-wrap;
  word-wrap: break-word;
 
- margin-right: -1rem;
- margin-left: -1rem;
-
- padding: 1rem;
-
  background-color: hsl(0, 0%, 95%);
+ border-radius: 4px;
 }

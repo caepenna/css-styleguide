@@ -1,6 +1,9 @@
 <nav class="sidebar-nav">
+
   <a href="/">Flama’s CSS Styleguide</a>
+
   {% for content in site.contents %}
     <a href="{{ content.url }}" class="">{{content.title}}</a></li>
   {% endfor %}
+
 </nav>
