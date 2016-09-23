@@ -4,21 +4,21 @@ title:  "Grid"
 permalink: /contents/grid
 ---
 
-### Column grid
+## Horizontal gird
 
 **Why columns? When to use?**
-˛
-We believe in consistency, but also in a content-fluid decision. So that's why we built our own column grid system which should be used only in cases that you have to organize the content based not only on better interactions (_later discussion in responsive layout_), but also in a hierarchy-based decision or more readable experience instead.
 
-Columns are our response to a project whenever he needs to set a better hierarchy, readable experience or even a consistent interaction.
+We believe in consistency, but also in a content-fluid decision. So that's why we built our own column grid system which should be used only in cases that you have to organize elements in a pre-defined horizontal system.
+
+Not all layouts will have a column system, threfore the use of columns are not mandatory.
 
 **Our Solution**
 
-What we aimed to do was create a framework that could work inside any container, regardless of the width of the container. The variables we needed were: number of columns and gutter, and the column width would be adapted accoringly.
+What we aimed to do was create a framework that could work inside any container, regardless of its width. The variables we needed were: number of columns and gutter, and the column width would be adapted accoringly.
 
 Our solution is a SCSS based system, and a _mixin_, _include_ and _calc_ structure that could be set in any layout/component (_Later discussion in stylesheets and folder architecture_) that relies in two variables at first: number of columns and gutter.
 
-It also include custom settings for any other working screen you might be working with. It works by setting up a minimum screen size for tablet or mobile and later working out the columns, gutter variables for those screens.  
+It also include custom settings for any other working screen you might be working with. It works by setting up a minimum screen size for tablet or mobile and later working out the columns, gutter variables for those screens.
 
 **How to use?**
 
@@ -74,15 +74,15 @@ You can always use our [Codepen](http://codepen.io/flama/pen/jARYpP)
 There's no wrong feedback from now on and we'd love to actually know your overall experience with the system.
 
 
-### Vertical grid module
+## Vertical grid
 
 In design, _vertical rhythm_ is the structure that guides a reader's eye through the content. Consistent vertical rhythm makes a layout more balanced and its content more readable.
 
 In order to ensure a consistent vertical rythim, we use a vertical grid module which is half the size of the `html`'s `font-size`, set in `em`. This means every* vertical distance should be a multiple of `0.5em`.
 
-*There can be exceptions (needs further explaining).
+It is important to understand that not all layouts will have a constistent vertical rhythm. You could opt to not have this consistency for project-specific reasons and, in this case, this don't have to be taken into consideration.
 
-**Right**
+**Project WITH constistent vertical rhythm**
 
 ```scss
 html {font-size: 16px;}
@@ -92,7 +92,7 @@ p {line-height: 1rem;}
 .foo {height: 2.5rem;}
 ```
 
-**Wrong**
+**Project WITHOUT constistent vertical rhythm**
 
 ```scss
 p {line-height: 17px;}

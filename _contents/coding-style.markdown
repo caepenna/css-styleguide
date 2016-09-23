@@ -15,7 +15,7 @@ permalink: /contents/coding-style
 
 - Avoid using `margin-top` and prefer the use of `margin-bottom`. With all your elements having margin only below them it is easier to organize the overall structure.
 
-### Order of declarations
+## Order of declarations
 
 In order for us to have a standard way of writing CSS we should always try to declare the properties in a specific order. This is not a "frozen" thing, and it is flexible, but the main guideline here is to group some properties together and have these groups in a specific order.
 
@@ -60,7 +60,7 @@ These groups should be separated by a blank line.
 }
 ```
 
-Another relevant pattern to be followed is declaring abscissa properties before ordinate properties in cases both exists. For example, `transformX` should come befor `transformY`; and `width` should come before `height`.
+Another relevant pattern to be followed is declaring abscissa properties before ordinate properties in cases both exists. For example, `transformX` should come before `transformY`; and `width` should come before `height`.
 
 Properties should also be spread when possible to avoid conflicts of overriding when not wanted.
 

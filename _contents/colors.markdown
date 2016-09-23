@@ -6,14 +6,14 @@ permalink: /contents/colors
 
 Prefer hexadecimal color codes `#f7931e` with lowercase letters and abbreviate them to three characters when possible `#f36`.
 
-### Color variables
+## Color variables
 
 ```scss
 $color-primary: #f36;
 $color-secondary: #3cc;
 ```
 
-### Grays
+## Grays
 
 When using shades of gray on your project, set the values using the HSL format (e.g.: `hsl(0, 0%, 30%)`).
 
@@ -48,7 +48,7 @@ In order to a better management of the amount of grays and the use of them, we s
 // dark gray for font: hsl(0, 0%, 30%)
 ```
 
-### Color Names
+## Color Names
 
 **It should never be used in a project**! Use it only for fast prototyping and testing specific components.
 

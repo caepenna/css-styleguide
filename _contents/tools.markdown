@@ -4,7 +4,7 @@ title:  "Tools"
 permalink: /contents/tools
 ---
 
-### Sass
+## Sass
 Recomendamos o uso de SCSS, pelos seguintes argumentos a partir da comparação.
 
 **SCSS**
@@ -41,4 +41,5 @@ h2
 
 3. A sintaxe do SCSS é bem proxima a do CSS, o que torna mais fácil a uma pessoa que já sabe CSS alterar um código SCSS ou criar um código, e entender as diferenças entre as linguagens.
 
-### Bourbon & Neat
+
+## Bourbon & Neat
