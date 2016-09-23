@@ -10,28 +10,26 @@ html {
 }
 
 p > a {
-  color: #000;
   position: relative;
+  color: #000;
   background-color: rgba($color-highlight, 0.1);
 
   &:hover {
-  background-color: rgba($color-highlight, 0.3);
+    background-color: rgba($color-highlight, 0.3);
   }
 }
 
 ul {
   >li {
+    margin-top: 0.5rem;
     font-size: $font-size-base;
     line-height: $line-height-base;
-    margin-top: 0.5rem;
   }
   >li:before {
-    content: "•";
     padding-right: 0.5rem;
+    content: "•";
   }
 }
-
-
 
 blockquote {
   margin: 0;
