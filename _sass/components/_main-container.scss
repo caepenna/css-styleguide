@@ -2,11 +2,7 @@
   display: flex;
   flex-wrap: nowrap;
 
-  flex-direction: column;  
-
-  @media #{$large-up} {
-    flex-direction: row;
-  }
+  flex-direction: row;
 
   > .main-content {
     flex-basis: 80%;
