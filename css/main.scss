@@ -7,9 +7,10 @@
 @import "ambience/typography";
 
 // Base
+@import "base/mixins";
 @import "base/normalize";
 @import "base/unclassed";
-@import "base/mixins";
+@import "base/typography";
 
 // Components
 @import "components/main-container";

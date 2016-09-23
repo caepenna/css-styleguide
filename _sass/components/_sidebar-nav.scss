@@ -1,6 +1,4 @@
 .sidebar-nav {
-  border-right: 1px solid hsl(0, 0%, 90%);
-  padding-top: 1rem;
 
   > a {
     display: block;
@@ -19,14 +17,14 @@
       line-height: $line-height-deci;
 
       &:hover {
-        background-color: hsl(0, 0%, 90%)
+        background-color: hsl(0, 0%, 95%)
       }
 
     }
 
     &:first-child {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
 
       font-size: $font-size-base;
       line-height: $line-height-deci;
@@ -34,6 +32,10 @@
 
     &:hover {
       color: hsl(0, 0%, 20%)
+    }
+
+    &.-current {
+      background-color: hsl(0, 0%, 90%)
     }
 
   }
