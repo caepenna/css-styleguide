@@ -1,19 +1,23 @@
 .main-container {
-  display: flex;
-  flex-wrap: nowrap;
-
-  flex-direction: column;  
-
-  @media #{$large-up} {
-    flex-direction: row;
-  }
+  background-color: bisque;
 
   > .main-content {
-    flex-basis: 80%;
   }
+}  
 
-  > .sidebar-nav {
-    flex-basis: 20%;
 
+@media only screen and (min-width: 640px) {
+  .main-container {
+    background-color: aqua;
+      > .main-content {
+        margin-left: 20vw;
+      }
+    
+      > .sidebar-nav {
+      position: fixed;
+      width: 20vw;
+    }
   }
 }
+
+
