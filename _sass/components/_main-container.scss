@@ -1,14 +1,15 @@
-@media only screen and (min-width: 640px) {
+
+
+
+@media #{$tablet-up} {
   .main-container {
     > .main-content {
       margin-left: 20vw;
     }
-  
+
     > .sidebar-nav {
-    position: fixed;
-    width: 20vw;
+      position: fixed;
+      width: 20vw;
     }
   }
 }
-
-
