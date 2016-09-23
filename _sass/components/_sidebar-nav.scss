@@ -1,0 +1,41 @@
+.sidebar-nav {
+  border-right: 1px solid hsl(0, 0%, 90%);
+  padding-top: 1rem;
+
+  > a {
+    display: block;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    color: hsl(0, 0%, 60%);
+
+    &:not(:first-child) {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: $font-size-deci;
+      line-height: $line-height-deci;
+
+      &:hover {
+        background-color: hsl(0, 0%, 90%)
+      }
+
+    }
+
+    &:first-child {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      font-size: $font-size-base;
+      line-height: $line-height-deci;
+    }
+
+    &:hover {
+      color: hsl(0, 0%, 20%)
+    }
+
+  }
+
+}
