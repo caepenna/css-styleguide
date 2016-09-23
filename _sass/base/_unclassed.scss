@@ -1,12 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-family: $font-family-body;
 }
 
 *, *:before, *:after {
+  font-family: $font-family-body;
   box-sizing: inherit;
 }
 
@@ -19,6 +18,20 @@ p > a {
   background-color: rgba($color-highlight, 0.3);
   }
 }
+
+ul {
+  >li {
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    margin-top: 0.5rem;
+  }
+  >li:before {
+    content: "•";
+    padding-right: 0.5rem;
+  }
+}
+
+
 
 blockquote {
   margin: 0;
