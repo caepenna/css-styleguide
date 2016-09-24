@@ -56,6 +56,7 @@ tt, code, kbd, samp {
   font-family: $font-family-mono;
   letter-spacing: 1px;
   background-color: hsl(0, 0%, 90%);
+  color: $color-highlight;
 }
 
 pre {

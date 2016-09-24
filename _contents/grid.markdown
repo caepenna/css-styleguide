@@ -22,53 +22,57 @@ It also include custom settings for any other working screen you might be workin
 
 **How to use?**
 
-1. First things first: get to know your variables.
-  * The code is really simple. And it will start as two variables only: _number of columns_ and _gutter_;
+First things first: get to know your variables.
 
-  ```scss
-  $nOfColumns: 12; !default
-  $gutter: 1rem; !default
-  $columnWidth: ( 100%/#{$nOfColumns} - #{$gutter} );
-  ```
+The code is really simple. And it will start as two variables only: number of columns and gutter.
 
-  * You will notice that same variables happens for _tablets_ and _mobile_;
+```scss
+$nOfColumns: 12; !default
+$gutter: 1rem; !default
+$columnWidth: ( 100%/#{$nOfColumns} - #{$gutter} );
+```
 
-  ```scss
-  $nOfColumnsTablet: 8; !default
-  $gutterTablet: .5rem; !default
-  $columnWidthTablet: ( 100%/#{$nOfColumnsTablet} - #{$gutterTablet} );
+You will notice that same variables happens for tablets and mobile.
 
-  $nOfColumnsMobile: 4; !default
-  $gutterMobile: .5rem; !default
-  $columnWidthMobile: ( 100%/#{$nOfColumnsMobile} - #{$gutterMobile} );
-  ```
+```scss
+$nOfColumnsTablet: 8; !default
+$gutterTablet: .5rem; !default
+$columnWidthTablet: ( 100%/#{$nOfColumnsTablet} - #{$gutterTablet} );
+$nOfColumnsMobile: 4; !default
+$gutterMobile: .5rem; !default
+$columnWidthMobile: ( 100%/#{$nOfColumnsMobile} - #{$gutterMobile} );
+```
 
-  * And then, set up your maximum tablet and mobile width;
+And then, set up your maximum tablet and mobile width.
 
-  ```scss
-  $tabletWidth: 640px; !default
-  $mobileWidth: 480px; !default
-  ```
+```scss
+$tabletWidth: 640px; !default
+$mobileWidth: 480px; !default
+```
 
-2. Second stuff comes right after: get to know the system.
-  * There you'll see a bunch of _mixins_ for mobile and tablet. They will be setting up the grid the way it should be based on the variables you have set before. Apply it using **@include grid(number)**;
+Second stuff comes right after: get to know the system.
 
-  * And also, there will be set some offset mixins in case you might wanna get off the grid for some reason. Apply it using **@include offSetRight(number)** or **@includeOffSetLeft(number)**;
+There you'll see a bunch of _mixins_ for mobile and tablet. They will be setting up the grid the way it should be based on the variables you have set before. Apply it using **@include grid(number)**.
 
-3. Not all set, yet! Set up your container width too.
-  * Mind that the grid works without setting a width, but it might be compromise the overall look of the application and it's certainly not the best approach for a multiple screen application.
 
-  ```scss
-  .container {
-    width: calc(60% + 240px); !default
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
-  }
-  ```
+And also, there will be set some offset mixins in case you might wanna get off the grid for some reason. Apply it using **@include offSetRight(number)** or **@includeOffSetLeft(number)**.
 
-4. All set! You're good to go!
+Not all set, yet! Set up your container width too.
+
+Mind that the grid works without setting a width, but it might be compromise the overall look of the application and it's certainly not the best approach for a multiple screen application.
+
+```scss
+.container {
+  width: calc(60% + 240px); !default
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+```
+
+All set! You're good to go!
+
 You can always use our [Codepen](http://codepen.io/flama/pen/jARYpP)
 
 There's no wrong feedback from now on and we'd love to actually know your overall experience with the system.
