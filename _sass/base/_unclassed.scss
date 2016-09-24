@@ -2,20 +2,29 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-weight: 400;
+  font-family: $font-family-body;
 }
 
 *, *:before, *:after {
-  font-family: $font-family-body;
   box-sizing: inherit;
 }
 
-p > a {
-  position: relative;
-  color: #000;
-  background-color: rgba($color-highlight, 0.1);
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  a {
+    position: relative;
+    color: #000;
+    background-color: rgba($color-highlight, 0.1);
+    font-weight: inherit;
 
-  &:hover {
-    background-color: rgba($color-highlight, 0.3);
+    &:hover {
+      background-color: rgba($color-highlight, 0.3);
+    }
   }
 }
 
@@ -41,6 +50,14 @@ blockquote {
   color: hsl(0, 0%, 60%);
 }
 
+tt, code, kbd, samp {
+  border-radius: 4px;
+  padding: 2px;
+  font-family: $font-family-mono;
+  letter-spacing: 1px;
+  background-color: hsl(0, 0%, 90%);
+}
+
 pre {
   padding: 1rem;
   border-radius: 4px;
@@ -53,13 +70,12 @@ pre {
  white-space: -o-pre-wrap;
  word-wrap: break-word;
 
- background-color: hsl(0, 0%, 95%);
  border-radius: 4px;
  font-size: $font-size-base;
  line-height: $line-height-base;
 
-  & * {
-    font-family: $font-family-mono;
-  }
+ code {
+  background-color: transparent;
+ }
 
 }

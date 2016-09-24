@@ -1,9 +1,9 @@
 .highlight {
     background-color: #000;
-    color: #e6e6e6;
+    color: hsl(0, 0%, 90%);
 
     .highlighter-rouge & {
-      background-color: #292a2b;
+      background-color: hsl(0, 0%, 15%);
    ; }
 
     .c     { color: #686b79; font-style: italic; } // Comment
@@ -55,7 +55,7 @@
     .s2    { color: #19f9d8; } // Literal.String.Double
     .se    { color: #19f9d8; } // Literal.String.Escape
     .sh    { color: #19f9d8; } // Literal.String.Heredoc
-    .si    { color: #e6e6e6; } // Literal.String.Interpol
+    .si    { color: hsl(0, 0%, 90%); } // Literal.String.Interpol
     .sx    { color: #19f9d8; } // Literal.String.Other
     .sr    { color: #009926; } // Literal.String.Regex
     .s1    { color: #19f9d8; } // Literal.String.Single

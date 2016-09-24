@@ -7,7 +7,6 @@ permalink: /contents/coding-style
 **You should:**
 
 - Use soft-tabs with a two space indent
-- Put spaces after `:` in pseudoclasses declarations (right: `: after`; wrong: `:after`)
 - Put spaces before `{` in rule declarations (right: `.foo {}`; wrong: `.foo{}`)
 - Use `//` for comment blocks (instead of `/* */`)
 
