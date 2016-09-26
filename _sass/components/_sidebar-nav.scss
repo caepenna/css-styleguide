@@ -11,24 +11,24 @@
     font-family: $font-family-title;
     font-weight: 500;
     letter-spacing: 1px;
+    font-size: $font-size-centi;
+    line-height: $line-height-centi;
 
     &:not(:first-child) {
-      padding-top: 0.75rem;
-      padding-bottom: 0.75rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
 
       text-transform: uppercase;
-      font-size: $font-size-centi;
-      line-height: $line-height-deci;
 
     }
 
     &:first-child {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
       border-bottom: 1px solid hsl(0, 0%, 90%);
 
       font-size: $font-size-base;
-      line-height: $line-height-deci;
+      line-height: $line-height-base;
       letter-spacing: 0.5px;
     }
 
