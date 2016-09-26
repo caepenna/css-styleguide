@@ -67,18 +67,53 @@ pre {
   margin-right: -1rem;
   margin-left: -1rem;
 
- white-space: pre-wrap;
- white-space: -moz-pre-wrap;
- white-space: -pre-wrap;
- white-space: -o-pre-wrap;
- word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 
- border-radius: 4px;
- font-size: $font-size-base;
- line-height: $line-height-base;
+  border-radius: 4px;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 
- code {
+  code {
+    background-color: transparent;
+  }
+}
+
+progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-left: 20vw;
+
+  width: 80%;
+  height: 5px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  /*border: none;*/
+
+  /* Progress bar container for Firefox/IE10+ */
   background-color: transparent;
- }
 
+  /* Progress bar value for IE10+ */
+  color: #f36;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: #f36;
+}
+
+progress::-moz-progress-bar {
+  background-color: #f36;
 }
