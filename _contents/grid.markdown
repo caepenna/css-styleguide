@@ -27,27 +27,27 @@ First things first: get to know your variables.
 The code is really simple. And it will start as two variables only: number of columns and gutter.
 
 ```scss
-$nOfColumns: 12; !default
-$gutter: 1rem; !default
+$nOfColumns: 12;
+$gutter: 1rem;
 $columnWidth: ( 100%/#{$nOfColumns} - #{$gutter} );
 ```
 
 You will notice that same variables happens for tablets and mobile.
 
 ```scss
-$nOfColumnsTablet: 8; !default
-$gutterTablet: .5rem; !default
+$nOfColumnsTablet: 8;
+$gutterTablet: .5rem;
 $columnWidthTablet: ( 100%/#{$nOfColumnsTablet} - #{$gutterTablet} );
-$nOfColumnsMobile: 4; !default
-$gutterMobile: .5rem; !default
+$nOfColumnsMobile: 4;
+$gutterMobile: .5rem;
 $columnWidthMobile: ( 100%/#{$nOfColumnsMobile} - #{$gutterMobile} );
 ```
 
 And then, set up your maximum tablet and mobile width.
 
 ```scss
-$tabletWidth: 640px; !default
-$mobileWidth: 480px; !default
+$tabletWidth: 640px;
+$mobileWidth: 480px;
 ```
 
 Second stuff comes right after: get to know the system.

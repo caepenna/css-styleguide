@@ -10,13 +10,13 @@
 
     font-family: $font-family-title;
     font-weight: 500;
+    letter-spacing: 1px;
 
     &:not(:first-child) {
       padding-top: 0.75rem;
       padding-bottom: 0.75rem;
 
       text-transform: uppercase;
-      letter-spacing: 0.1em;
       font-size: $font-size-centi;
       line-height: $line-height-deci;
 
@@ -27,9 +27,9 @@
       padding-bottom: 1.5rem;
       border-bottom: 1px solid hsl(0, 0%, 90%);
 
-      letter-spacing: 0.05em;
       font-size: $font-size-base;
       line-height: $line-height-deci;
+      letter-spacing: 0.5px;
     }
 
     &:hover {

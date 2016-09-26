@@ -5,7 +5,7 @@ $color-highlight: #f36;
 $font-size-mega: 3.2em;
 $font-size-kilo: 2em;
 $font-size-hecto: 1.6em;
-$font-size-deca: 1.3em;
+$font-size-deca: 1.2em;
 $font-size-base: 1em;
 $font-size-deci: 0.8em;
 $font-size-centi: 0.7em;
@@ -17,8 +17,8 @@ $line-height-kilo: 2.5rem;
 $line-height-hecto: 2rem;
 $line-height-deca: 1.75rem;
 $line-height-base: 1.5rem;
-$line-height-deci: 1rem;
-$line-height-centi: 0.75rem;
+$line-height-deci: 1.25rem;
+$line-height-centi: 1rem;
 
 // Font Families
 
@@ -27,7 +27,8 @@ $line-height-centi: 0.75rem;
 // $font-family-mono: 'Inconsolata', monospace;
 
 $font-family-body: 'Droid Serif', Georgia, serif;;
-$font-family-title: 'Neue Haas Grotesk Display Pro', Helvetica, sans-serif;;;
+// $font-family-title: 'Neue Haas Grotesk Display Pro', Helvetica, sans-serif;;;
+$font-family-title: 'Helvetica Neue', Helvetica, sans-serif;;;
 $font-family-mono: 'Inconsolata', monospace;
 
 // Device Sizes

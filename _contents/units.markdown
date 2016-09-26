@@ -56,7 +56,7 @@ h2 {line-height: 26px;}
 p {line-height: 16px;}
 ```
 
-## Units vertical margins and paddings
+## Units for vertical margins and paddings
 
 In general, vertical margins and paddings (top and bottom) are used as typographical tools to organize, group and arrange text. In order to maintain the vertical rhythm they should follow the same rules of the [Units for `line-height`](#units-for-line-height).
 
