@@ -211,14 +211,14 @@ Each weight (hairline, thin, light, regular, medium, semibold, bold, heavy, blac
 
 ```scss
 @font-face {
-  font-family: 'Greta SansHairline';
+  font-family: 'Greta Sans';
   src: url('fonts/GretaSans-.wotf');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Greta SansThin';
+  font-family: 'Greta Sans';
   src: url('fonts/GretaSans-.wotf');
   font-weight: 200;
   font-style: normal;

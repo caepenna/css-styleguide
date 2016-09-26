@@ -18,11 +18,13 @@ h5,
 h6 {
   a {
     position: relative;
+    box-shadow: 0 0 0 1px rgba($color-highlight, 0.1);
     color: #000;
     background-color: rgba($color-highlight, 0.1);
     font-weight: inherit;
 
     &:hover {
+      box-shadow: 0 0 0 1px rgba($color-highlight, 0.3);
       background-color: rgba($color-highlight, 0.3);
     }
   }
@@ -55,7 +57,7 @@ tt, code, kbd, samp {
   padding: 2px;
   font-family: $font-family-mono;
   letter-spacing: 1px;
-  background-color: hsl(0, 0%, 90%);
+  background-color: rgba(#000, 0.05);
   color: $color-highlight;
 }
 

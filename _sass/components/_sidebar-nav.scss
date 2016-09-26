@@ -8,19 +8,17 @@
 
     color: hsl(0, 0%, 60%);
 
+    font-family: $font-family-title;
+    font-weight: 500;
+
     &:not(:first-child) {
       padding-top: 0.75rem;
       padding-bottom: 0.75rem;
 
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.1em;
       font-size: $font-size-centi;
       line-height: $line-height-deci;
-      font-weight: 600;
-
-      &:hover {
-        background-color: hsl(0, 0%, 95%);
-      }
 
     }
 
@@ -29,13 +27,13 @@
       padding-bottom: 1.5rem;
       border-bottom: 1px solid hsl(0, 0%, 90%);
 
+      letter-spacing: 0.05em;
       font-size: $font-size-base;
       line-height: $line-height-deci;
-      font-family: $font-family-title;
-      font-weight: 400;
     }
 
     &:hover {
+      background-color: hsl(0, 0%, 95%);
       color: hsl(0, 0%, 20%)
     }
 

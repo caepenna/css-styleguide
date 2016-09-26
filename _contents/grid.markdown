@@ -63,7 +63,7 @@ Mind that the grid works without setting a width, but it might be compromise the
 
 ```scss
 .container {
-  width: calc(60% + 240px); !default
+  width: calc(60% + 240px);
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -73,10 +73,7 @@ Mind that the grid works without setting a width, but it might be compromise the
 
 All set! You're good to go!
 
-You can always use our [Codepen](http://codepen.io/flama/pen/jARYpP)
-
-There's no wrong feedback from now on and we'd love to actually know your overall experience with the system.
-
+You can always use our [Codepen](http://codepen.io/flama/pen/jARYpP).
 
 ## Vertical grid
 
