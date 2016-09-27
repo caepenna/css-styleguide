@@ -1,6 +1,6 @@
 $(document).on('ready', function() {  
   var winHeight = $(window).height(), 
-  docHeight = $(".wrapper").height(),
+  docHeight = $(".main-container").height(),
   progressBar = $('progress'),
   max, value;
 
