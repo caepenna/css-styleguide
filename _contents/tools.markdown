@@ -8,6 +8,7 @@ permalink: /contents/tools
 Recomendamos o uso de SCSS, pelos seguintes argumentos a partir da comparação.
 
 **SCSS (Sassy CSS)**
+
 ```scss
 h1 { font-size: $font-size-h1 }
 
@@ -22,6 +23,7 @@ h2 { font-size: $font-size-h2 }
 ```
 
 **Sass**
+
 ```sass
 h1
   font-size: $font-size-h1
