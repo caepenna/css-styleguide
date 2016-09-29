@@ -5,7 +5,7 @@
     {% if page.url == link.url %}
       {% assign current = '-current' %}
     {% endif %}
-    <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+    <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
   {% endfor %}
 
 </nav>

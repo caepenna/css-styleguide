@@ -17,25 +17,24 @@ collections:
      
 navigation:
 - text: Flama’s CSS Styleguide
-  url: /css-styleguide/
+  url: /
 - text: Class Naming Convention
-  url: /css-styleguide/contents/class-naming-convention
+  url: /contents/class-naming-convention
 - text: Coding Style
-  url: /css-styleguide/contents/coding-style
+  url: /contents/coding-style
 - text: Colors
-  url: /css-styleguide/contents/colors
+  url: /contents/colors
 - text: CSS for JavaScript
-  url: /css-styleguide/contents/css-for-javascript
+  url: /contents/css-for-javascript
 - text: Designing for different sized plataforms
-  url: /css-styleguide/contents/designing-for-different-sized-plataforms
+  url: /contents/designing-for-different-sized-plataforms
 - text: Grid
-  url: /css-styleguide/contents/grid
+  url: /contents/grid
 - text: Stylesheets Folder Architecture
-  url: /css-styleguide/contents/stylesheets-folder-architecture
+  url: /contents/stylesheets-folder-architecture
 - text: Tools
-  url: /css-styleguide/contents/tools
+  url: /contents/tools
 - text: Typography
-  url: /css-styleguide/contents/typography
+  url: /contents/typography
 - text: Units
-  url: /css-styleguide/contents/units
-
+  url: /contents/units
