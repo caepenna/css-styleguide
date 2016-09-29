@@ -10,11 +10,14 @@ Recomendamos o uso de SCSS, pelos seguintes argumentos a partir da comparação.
 **SCSS (Sassy CSS)**
 
 ```scss
-h1 { font-size: $font-size-h1 }
+h1 {font-size: $font-size-h1}
 
-h2 { font-size: $font-size-h2 }
+h2 {font-size: $font-size-h2}
 
-.foo { height: 100px; width: 100px; }
+.foo {
+  height: 100px;
+  width: 100px;
+}
 
 .item {
   box-shadow: 0 2px 0px #dcffa6,
