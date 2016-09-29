@@ -11,6 +11,11 @@ github_username:  flama
 markdown: kramdown
 permalink: /title
 
+assets:
+  sources:
+    - assets/fonts
+    - assets/javascripts
+
 collections:
   contents:
     output: true
