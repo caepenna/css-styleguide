@@ -4,13 +4,15 @@ title:  "Tools"
 permalink: /contents/tools
 ---
 
-### Sass
+## Sass
 Recomendamos o uso de SCSS, pelos seguintes argumentos a partir da comparação.
 
-**SCSS**
+**SCSS (Sassy CSS)**
 ```scss
 h1 { font-size: $font-size-h1 }
+
 h2 { font-size: $font-size-h2 }
+
 .foo { height: 100px; width: 100px; }
 
 .item {
@@ -32,7 +34,7 @@ h2
   width: 100px
 
 .item
-  box-shadow: 0 2px 0px #dcffa6, 0 2px 5px #000;
+  box-shadow: 0 2px 0px #dcffa6, 0 2px 5px #000
 ```
 
 1. Comparando a sintexe do Sass com a do SCSS, o SCSS tem uma capacidade escrita melhor, o que possibilita algumas vantagens, como escrever seletores e atributos na mesma linha. Essa grande capacidade de escrita pode vir a ser um problema porque possibilita escrever um código menos legivel.
@@ -41,4 +43,3 @@ h2
 
 3. A sintaxe do SCSS é bem proxima a do CSS, o que torna mais fácil a uma pessoa que já sabe CSS alterar um código SCSS ou criar um código, e entender as diferenças entre as linguagens.
 
-### Bourbon & Neat

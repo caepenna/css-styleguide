@@ -1,0 +1,53 @@
+{
+  "rules": {
+    "declaration-block-properties-order": [
+      {
+        "properties": ["width", "height"]
+      },
+      {
+        "order": "flexible",
+        "properties": ["padding", "margin", "border"]
+      },
+      {
+        "properties": ["padding-top", "padding-right", "padding-bottom", "padding-left"]
+      },
+      {
+        "properties": ["margin-top", "margin-right", "margin-bottom", "margin-left"]
+      },
+      {
+        "properties": ["border-top", "border-right", "border-bottom", "border-left"]
+      },
+      {
+        "order": "flexible",
+        "properties": ["display", "position"]
+      },
+      {
+        "properties": ["top", "right", "bottom", "left"]
+      },
+      {
+        "order": "flexible",
+        "properties": ["font", "text", "line-height"]
+      },
+      {
+        "order": "flexible",
+        "properties": ["background", "color", "box-shadow",  "opacity", "cursor"]
+      },
+      {
+        "properties": ["transition"]
+      }
+    ],
+    "unit-case": "lower",
+    "declaration-property-unit-whitelist": {
+      "font-size": ["em", "rem"]
+    },
+    "font-weight-notation": "numeric",
+    "color-hex-case": "lower",
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "indentation": 2,
+    "max-nesting-depth": 3,
+    "no-indistinguishable-colors": [true, {
+      "threshold": 3
+    }]
+  }
+}

@@ -1,7 +1,11 @@
-<div class="main-nav">
-  <ul>
-    {% for content in site.contents %}
-      <li><a href="{{ content.url }}">{{content.title}}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<nav class="sidebar-nav">
+
+  {% for link in site.navigation %}
+    {% assign current = nil %}
+    {% if page.url == link.url %}
+      {% assign current = '-current' %}
+    {% endif %}
+    <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+  {% endfor %}
+
+</nav>
