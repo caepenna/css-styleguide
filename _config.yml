@@ -23,23 +23,23 @@ collections:
 navigation:
 - text: Flama’s CSS Styleguide
   url: /
-- text: 1. Coding Style
+- text: Coding Style
   url: /contents/coding-style
-- text: 2. Tools
+- text: Tools
   url: /contents/tools
-- text: 3. Class Naming Convention
+- text: Class Naming Convention
   url: /contents/class-naming-convention
-- text: 4. Stylesheets Folder Architecture
+- text: Stylesheets Folder Architecture
   url: /contents/stylesheets-folder-architecture
-- text: 5. Units
+- text: Units
   url: /contents/units
-- text: 6. Colors
+- text: Colors
   url: /contents/colors
-- text: 7. Typography
+- text: Typography
   url: /contents/typography
-- text: 8. Grid
+- text: Grid
   url: /contents/grid
-- text: 9. Designing for different sized plataforms
+- text: Designing for different sized plataforms
   url: /contents/designing-for-different-sized-plataforms
-- text: 10. CSS for JavaScript
+- text: CSS for JavaScript
   url: /contents/css-for-javascript
