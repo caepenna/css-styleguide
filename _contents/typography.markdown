@@ -205,7 +205,7 @@ The font weight value should be declared in numbers (e.g.: `100`), the only vali
 }
 ```
 
-Each weight (hairline, thin, light, regular, medium, semibold, bold, heavy, black) should have its own number value (from 100 to 900). If there are any weights not mention before (such as “extra light”, “demibold” or “ultra black”) this modle can be adatped to fit them as log as thin is always 300, regular is always 400 and bold is always 700.
+Each weight (hairline, thin, light, regular, medium, semibold, bold, heavy, black) should have its own number value (from 100 to 900). If there are any weights not mention before (such as “extra light”, “demibold” or “ultra black”) this framework can be adatped to fit them as log as thin is always 300, regular is always 400 and bold is always 700.
 
 **Right**
 
@@ -214,62 +214,53 @@ Each weight (hairline, thin, light, regular, medium, semibold, bold, heavy, blac
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-.wotf');
   font-weight: 100;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-.wotf');
   font-weight: 200;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Light.wotf');
   font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Regular.wotf');
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Medium.wotf');
   font-weight: 500;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Semibold.wotf');
   font-weight: 600;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Bold.wotf');
   font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Heavy.wotf');
   font-weight: 800;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Greta Sans';
   src: url('fonts/GretaSans-Black.wotf');
   font-weight: 900;
-  font-style: normal;
 }
 ```

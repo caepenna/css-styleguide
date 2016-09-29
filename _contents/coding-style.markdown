@@ -35,6 +35,7 @@ The groups declarations are the following (and in the following order):
 These groups should be separated by a blank line.
 
 **Example**
+
 ```scss
 .button {
   @include btn;
@@ -64,6 +65,7 @@ Another relevant pattern to be followed is declaring abscissa properties before 
 Properties should also be spread when possible to avoid conflicts of overriding when not wanted.
 
 **Wrong**
+
 ```scss
 .bg {
   background: fixed $color-main url(../assets/bg.png) center top no-repeat;
@@ -71,6 +73,7 @@ Properties should also be spread when possible to avoid conflicts of overriding 
 ```
 
 **Right**
+
 ```scss
 .bg {
   background-attachment: fixed;
