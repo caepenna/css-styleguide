@@ -1,17 +1,15 @@
 $(document).on('ready', function() {  
-  var winHeight = $(window).height(), 
-  docHeight = $(".main-container").height(),
-  progressBar = $('progress'),
-  max, value;
+  var winHeight = $(window).height();
+  var docHeight = $(".main-container").height();
+  var progressBar = $('progress');
 
-  /* Set the max scrollable area */
-  max = docHeight - winHeight;
+  var max = docHeight - winHeight;
   progressBar.attr('max', max);
 
-  if(docHeight > (winHeight * 1.5)){
-    $(document).on('scroll', function(){
-    value = $(window).scrollTop();
-    progressBar.attr('value', value);
+  if (docHeight > (winHeight * 1.5)) {
+    $(document).on('scroll', function() {
+      var value = $(window).scrollTop();
+      progressBar.attr('value', value);
     });
   }
 });
