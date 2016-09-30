@@ -8,8 +8,10 @@ $(document).on('ready', function() {
   max = docHeight - winHeight;
   progressBar.attr('max', max);
 
-  $(document).on('scroll', function(){
-  value = $(window).scrollTop();
-  progressBar.attr('value', value);
-  });
+  if(docHeight > (winHeight * 1.5)){
+    $(document).on('scroll', function(){
+    value = $(window).scrollTop();
+    progressBar.attr('value', value);
+    });
+  }
 });
