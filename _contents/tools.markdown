@@ -5,7 +5,7 @@ permalink: /contents/tools
 ---
 
 ## Sass
-Recomendamos o uso de SCSS, pelos seguintes argumentos a partir da comparação.
+We recommend the use of SCSS syntax when using Sass.
 
 **SCSS (Sassy CSS)**
 
@@ -41,10 +41,7 @@ h2
 .item
   box-shadow: 0 2px 0px #dcffa6, 0 2px 5px #000
 ```
+Comparing both syntaxes, SCSS allows you to write selectors and attributes on the same line so you can simplify your code. At the same time you need to be careful not to code in a way it's hard to read and understand.
 
-1. Comparando a sintexe do Sass com a do SCSS, o SCSS tem uma capacidade escrita melhor, o que possibilita algumas vantagens, como escrever seletores e atributos na mesma linha. Essa grande capacidade de escrita pode vir a ser um problema porque possibilita escrever um código menos legivel.
-
-2. Integração com código CSS é mais suave porque o código CSS funciona dentro de um código SCSS, diferente do código SASS que a sintaxe é diferente e precisa de alterações para rodar.
-
-3. A sintaxe do SCSS é bem proxima a do CSS, o que torna mais fácil a uma pessoa que já sabe CSS alterar um código SCSS ou criar um código, e entender as diferenças entre as linguagens.
+You can write plain CSS in SCSS (or reuse CSS code from elsewhere). Also, for the same reason, the learning curve is smoother for people who already know CSS.
 
