@@ -11,6 +11,9 @@ github_username:  flama
 markdown: kramdown
 permalink: /title
 
+sass:
+  sass_dir: assets/stylesheets/_sass
+
 # assets:
 #   sources:
 #     - assets/fonts
@@ -19,7 +22,7 @@ permalink: /title
 collections:
   contents:
     output: true
-     
+
 navigation:
 - text: Flama’s CSS Styleguide
   url: /
