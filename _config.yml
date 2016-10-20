@@ -22,25 +22,3 @@ sass:
 collections:
   contents:
     output: true
-
-navigation:
-- text: Coding Style
-  url: /contents/coding-style
-- text: Tools
-  url: /contents/tools
-- text: Class Naming Convention
-  url: /contents/class-naming-convention
-- text: Stylesheets Folder Architecture
-  url: /contents/stylesheets-folder-architecture
-- text: Units
-  url: /contents/units
-- text: Colors
-  url: /contents/colors
-- text: Typography
-  url: /contents/typography
-- text: Grid
-  url: /contents/grid
-- text: Designing for different sized plataforms
-  url: /contents/designing-for-different-sized-plataforms
-- text: CSS for JavaScript
-  url: /contents/css-for-javascript
