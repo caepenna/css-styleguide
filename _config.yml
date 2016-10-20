@@ -24,8 +24,6 @@ collections:
     output: true
 
 navigation:
-- text: Flama’s CSS Styleguide
-  url: /
 - text: Coding Style
   url: /contents/coding-style
 - text: Tools

@@ -1,5 +1,7 @@
 <nav class="sidebar-nav">
 
+  <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}-current{% endif %}" >{{ site.title }}</a>
+
   {% for link in site.navigation %}
     {% assign current = nil %}
     {% if page.url == link.url %}
