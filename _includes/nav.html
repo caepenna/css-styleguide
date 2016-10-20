@@ -1,11 +1,9 @@
 <nav class="sidebar-nav">
 
-  {% for link in site.navigation %}
-    {% assign current = nil %}
-    {% if page.url == link.url %}
-      {% assign current = '-current' %}
-    {% endif %}
-    <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
-  {% endfor %}
+  <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}-current{% endif %}" >{{ site.title }}</a>
+
+  {% for content in site.contents %}
+    <a href="{{ content.permalink | prepend: site.baseurl }}" class="{% if page.url == content.permalink %}-current{% endif %}" >{{ content.title }}</a>
+  {% endfor%}
 
 </nav>
