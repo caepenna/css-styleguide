@@ -4,8 +4,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}CSS Styleguide | {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.title %}{{ site.title | append: ' | ' | append: page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
 
   <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | prepend: site.baseurl }}">
   <link rel="icon" href="{{ '/assets/images/favicon-32.png' | prepend: site.baseurl }}" sizes="32x32">
