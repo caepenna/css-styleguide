@@ -1,2 +1,2 @@
 # css-styleguide
-CSS bes practives for designing at Flama
+CSS best practices for designing at Flama
