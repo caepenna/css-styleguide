@@ -8,6 +8,8 @@ Prefer hexadecimal color codes `#f7931e` with lowercase letters and abbreviate t
 
 ## Color variables
 
+We recommend using variables to set project's color palette with names beginning with `color-`. So when using in any part of project it's implicit that is a color variable and we can take advantage of text auto complete listing only color variables.
+
 ```scss
 $color-primary: #f36;
 $color-secondary: #3cc;
