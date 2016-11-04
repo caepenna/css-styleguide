@@ -8,9 +8,53 @@ Prefer hexadecimal color codes `#f7931e` with lowercase letters and abbreviate t
 
 ## Color variables
 
+When defining the color variables for a project, you can approach it in two different ways.
+
+The first way is to set variables for every hexadecimal that will be used in the project. Some of these colors will be shades of another color, so you can name them with the suffix `-light`, `-dark`, `xlight`, `x-dark`, `xx-dark`, and so on, like this:
+
 ```scss
-$color-primary: #f36;
-$color-secondary: #3cc;
+$color-action: #2aaafe;
+$color-action-hover: #018fec;
+
+$color-error: #de4163;
+
+$color-coolgray: #c4ced9;
+$color-coolgray-light: #f0f2f5;
+$color-coolgray-xlight: #f8f9fa;
+$color-coolgray-dark: #8d969b;
+$color-coolgray-xdark: #51565b;
+```
+
+> [Here](http://codepen.io/caepenna/pen/qqBYRN) is an example of this applied in a component.
+
+The prefered way to do this, however, is to set only the base colors. And then, when using them, use the function `mix` to mix the base color with either black (`#000`) or white (`#fff`) the amount desired.
+
+```scss
+$color-action: #2aaafe;
+$color-error: #de4163;
+$color-coolgray: #c4ced9;
+
+.button {
+  background-color: $color-action;
+  &:hover {
+    background-color: mix(#000, $color-action, 10%);
+  }
+}
+```
+
+> [Here](http://codepen.io/caepenna/pen/jVOxvo) is an example of this applied in a component.
+
+This way you won't need multiple variables and also will have flexibility to chose shades of colors for your interface as desired when designing the UI. It is recommended to limit the number of shades used to simplify the interface visually, but that limitation can vary a lot from project to project.
+
+Also, when using color variables, create them for colors and then create a different variable with a name that specify its use, the following way.
+
+```scss
+$color-blue: #2aaafe;
+$color-pink: #de4163;
+$color-coolgray: #c4ced9;
+
+$color-action: $color-blue;
+$color-error: $color-pink;
 ```
 
 ## Grays
