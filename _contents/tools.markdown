@@ -14,11 +14,6 @@ h1 {font-size: $font-size-h1}
 
 h2 {font-size: $font-size-h2}
 
-.foo {
-  height: 100px;
-  width: 100px;
-}
-
 .item {
   box-shadow: 0 2px 0px #dcffa6,
               0 2px 5px #000;
@@ -33,10 +28,6 @@ h1
 
 h2
   font-size: $font-size-h2
-
-.foo
-  height: 100px
-  width: 100px
 
 .item
   box-shadow: 0 2px 0px #dcffa6, 0 2px 5px #000

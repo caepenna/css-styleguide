@@ -14,9 +14,9 @@ Not all layouts will have a column system, threfore the use of columns are not m
 
 **Our Solution**
 
-What we aimed to do was create a framework that could work inside any container, regardless of its width. The variables we needed were: number of columns and gutter, and the column width would be adapted accoringly.
+We aimed to create a framework that would work inside any container, regardless of its width. We just wanted to customize 2 variables: **number of columns** and **gutter**. Then the columns width would be adapted accordingly.
 
-Our solution is a SCSS based system, and a _mixin_, _include_ and _calc_ structure that could be set in any layout/component (_Later discussion in stylesheets and folder architecture_) that relies in two variables at first: number of columns and gutter.
+Our solution is a SCSS based system, and a _mixin_, _include_ and _calc_ structure that could be set in any layout/component (_Later discussion in stylesheets and folder architecture_).
 
 It also include custom settings for any other working screen you might be working with. It works by setting up a minimum screen size for tablet or mobile and later working out the columns, gutter variables for those screens.
 
@@ -32,7 +32,7 @@ $gutter: 1rem;
 $columnWidth: ( 100%/#{$nOfColumns} - #{$gutter} );
 ```
 
-You will notice that same variables happens for tablets and mobile.
+You will notice that same variables applies for tablets and mobile.
 
 ```scss
 $nOfColumnsTablet: 8;
@@ -77,13 +77,13 @@ You can always use our [Codepen](http://codepen.io/flama/pen/jARYpP).
 
 ## Vertical grid
 
-In design, _vertical rhythm_ is the structure that guides a reader's eye through the content. Consistent vertical rhythm makes a layout more balanced and its content more readable.
+In design, _vertical rhythm_ is the structure that guides a reader's eye through the content. Consistent vertical rhythm makes a layout more balanced and a more readable content.
 
-In order to ensure a consistent vertical rythim, we use a vertical grid module which is half the size of the `html`'s `font-size`, set in `em`. This means every* vertical distance should be a multiple of `0.5em`.
+In order to ensure a consistent vertical rhythm, we use a vertical grid module which is half the size of the `html`'s `font-size`, set in `em`. This means every* vertical distance should be a multiple of `0.5em`.
 
-It is important to understand that not all layouts will have a constistent vertical rhythm. You could opt to not have this consistency for project-specific reasons and, in this case, this don't have to be taken into consideration.
+It is important to understand that not all layouts will have a consistent vertical rhythm. You could opt to not have this consistency for project-specific reasons and, in this case, this don't have to be taken into consideration.
 
-**Project WITH constistent vertical rhythm**
+**Project WITH consistent vertical rhythm**
 
 ```scss
 html {font-size: 16px;}
@@ -93,7 +93,7 @@ p {line-height: 1rem;}
 .foo {height: 2.5rem;}
 ```
 
-**Project WITHOUT constistent vertical rhythm**
+**Project WITHOUT consistent vertical rhythm**
 
 ```scss
 p {line-height: 17px;}

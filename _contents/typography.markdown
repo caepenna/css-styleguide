@@ -63,7 +63,7 @@ h6 {
 
 ## Font size & line height variables
 
-For font size and line height values, the variables should be set using the metric prefixes. The variable names should refer to its size in relation to the "base size" (the size used in mst of the body text in the project). This way we understand how big or small the text is directly from reading the variable name.
+For font size and line height values, the variables should be set using the metric prefixes. The variable names should refer to its size in relation to the "base size" (the size used in most of the body text in the project). This way we understand how big or small the text is directly from reading the variable name.
 
 > Harry Roberts suggests the greek alphabet notation (`alpha`, `beta`, `gama`, etc) for setting font sizes names, but we prefere a way that makes more explicit the size in relation to each other (also, his example differs from our due to our use of mixins). You can find more interesting content on font sizing in CSS reading his article ["Pragmatic, practical font sizing in CSS"](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/).
 
