@@ -8,6 +8,7 @@ Prefer hexadecimal color codes `#f7931e` with lowercase letters and abbreviate t
 
 ## Color variables
 
+<<<<<<< HEAD
 When defining the color variables for a project, you can approach it in two different ways.
 
 The first way is to set variables for every hexadecimal that will be used in the project. Some of these colors will be shades of another color, so you can name them with the suffix `-light`, `-dark`, `xlight`, `x-dark`, `xx-dark`, and so on, like this:
@@ -47,6 +48,9 @@ $color-coolgray: #c4ced9;
 This way you won't need multiple variables and also will have flexibility to chose shades of colors for your interface as desired when designing the UI. It is recommended to limit the number of shades used to simplify the interface visually, but that limitation can vary a lot from project to project.
 
 Also, when using color variables, create them for colors and then create a different variable with a name that specify its use, the following way.
+=======
+We recommend using variables to set project's color palette with names beginning with `color-`. So when using in any part of project it's implicit that is a color variable and we can take advantage of text auto complete listing only color variables.
+>>>>>>> f6878b9ddcac0d2ceda064340363bd2bbcf787ba
 
 ```scss
 $color-blue: #2aaafe;

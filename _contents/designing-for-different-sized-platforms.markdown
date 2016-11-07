@@ -10,7 +10,7 @@ Therefore, one very useful strategy to responsive design and development is use 
 
 However, breakpoints are useful for adapting specificities and they should be used to better adapt the layout in specific circumstances. Also, break points should be set in variables so it is easier to change them when needed.
 
-> The example below is base on [Foundation](http://foundation.zurb.com/sites/docs/media-queries.html), adapted to better suit our needs.
+> The example below is based on [Foundation](http://foundation.zurb.com/sites/docs/media-queries.html), adapted to better suit our needs.
 
 **Right**
 
