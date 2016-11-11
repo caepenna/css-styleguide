@@ -9,7 +9,7 @@ It improves the quality and turn more maintainable and scalable.
 
 ### How to contribute
 We create this project using Jekyll.
-If you just want to add a new markdown content or update it, will be good to install Jekyll. You just need to pay attention to configure correctly the front matter adding the right link for it appears in the Menu..
+If you just want to add a new markdown content or update it, will be good to install Jekyll. You just need to pay attention to configure correctly the front matter adding the right link for it appears in the Menu.
 
 In case want done text corrections, it's enough create a pull request with the alterations.
 
