@@ -1,21 +1,20 @@
-# css-styleguide
-CSS best practices for designing at Flama
+# CSS Styleguide
 
-[Our styleguide page](https://flama.github.io/css-styleguide/)
+Best practices for writing CSS at Flama
 
-This is a guide with a lot of good practices and patterns of css.
-It serves to give more consistency to your project.
-It improves the quality and turn more maintainable and scalable.
+[Our CSS Styleguide page](https://flama.github.io/css-styleguide/)
+
+This guide has practices and patterns for writing CSS. It helps us give more consistency to our projects and improve the quality. As a consequence, it makes our projects more maintanable and scalable.
 
 ### How to contribute
-We create this project using Jekyll.
-If you just want to add a new markdown content or update it, will be good to install Jekyll. You just need to pay attention to configure correctly the front matter adding the right link for it appears in the Menu.
 
-In case want done text corrections, it's enough create a pull request with the alterations.
+You should feel free to contribute with Pull Requests.
 
-In case become alter or add definitions, can help you follow this structure.
-- When you should use this practice
-- Explain the practice
-- Put examples of code, both right and wrong.
-- Why this practice is the best. (Put references here)
-- If exist competitors or divergents ideas, put here.
+This project was created using [Jekyll](https://jekyllrb.com/). It would be nice to install Jekyll if you'd like to contribute with new content.
+
+To help you with your contributions, it is nice to follow this structure when possible:
+- When should you use the documented practice?
+- What is this practive?
+- What are some applied examples (both right and wrong)?
+- Why is this the best solution? It's nice to have references here.
+- What are other diverging approaches, and why not use them?
