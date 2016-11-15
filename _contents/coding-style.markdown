@@ -64,7 +64,7 @@ Another relevant pattern to be followed is declaring abscissa properties before 
 
 Properties should also be spread when possible to avoid conflicts of overriding when not wanted.
 
-**Wrong**
+**Avoid**
 
 ```scss
 .bg {
@@ -72,7 +72,7 @@ Properties should also be spread when possible to avoid conflicts of overriding 
 }
 ```
 
-**Right**
+**Prefer**
 
 ```scss
 .bg {
