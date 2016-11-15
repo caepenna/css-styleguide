@@ -14,11 +14,11 @@ Not all layouts will have a column system, threfore the use of columns are not m
 
 **Our Solution**
 
-We aimed to create a framework that would work inside any container, regardless of its width. We just wanted to customize 2 variables: **number of columns** and **gutter**. Then the columns width would be adapted accordingly.
+We aimed to create a framework that would work inside any container, regardless of its width. We just wanted to customize 3 variables: the widht of the element container columns, the number of columns (`$nOfColumns`) and the gutter between columns (`$gutter`). Then the columns width would be adapted accordingly.
 
-Our solution is a SCSS based system, and a _mixin_, _include_ and _calc_ structure that could be set in any layout/component (_Later discussion in stylesheets and folder architecture_).
+Our solution is a Sass based system that could be set in any layout/component.
 
-It also include custom settings for any other working screen you might be working with. It works by setting up a minimum screen size for tablet or mobile and later working out the columns, gutter variables for those screens.
+It also includes custom settings for other sizes of screen you might be working with. It works by setting up a minimum screen size for tablet or mobile and later working out the columns, gutter variables for those screens.
 
 **How to use?**
 
@@ -52,10 +52,10 @@ $mobileWidth: 480px;
 
 Second stuff comes right after: get to know the system.
 
-There you'll see a bunch of _mixins_ for mobile and tablet. They will be setting up the grid the way it should be based on the variables you have set before. Apply it using **@include grid(number)**.
+There you'll see a bunch of _mixins_ for mobile and tablet. They will be setting up the grid the way it should be based on the variables you have set before. Apply it using `@include grid(number)`.
 
 
-And also, there will be set some offset mixins in case you might wanna get off the grid for some reason. Apply it using **@include offSetRight(number)** or **@includeOffSetLeft(number)**.
+And also, there will be set some offset mixins in case you might wanna get off the grid for some reason. Apply it using `@include offSetRight(number)` or `@includeOffSetLeft(number)`.
 
 Not all set, yet! Set up your container width too.
 
@@ -70,6 +70,8 @@ Mind that the grid works without setting a width, but it might be compromise the
   overflow: auto;
 }
 ```
+
+_Need to talk about offest_
 
 All set! You're good to go!
 
@@ -86,19 +88,19 @@ It is important to understand that not all layouts will have a consistent vertic
 **Project WITH consistent vertical rhythm**
 
 ```scss
-html {font-size: 16px;}
+html { font-size: 16px; }
 
-p {line-height: 1rem;}
+p { line-height: 1rem; }
 
-.foo {height: 2.5rem;}
+.foo { height: 2.5rem; }
 ```
 
 **Project WITHOUT consistent vertical rhythm**
 
 ```scss
-p {line-height: 17px;}
+p { line-height: 17px; }
 
-.foo {height: 2.4rem;}
+.foo { height: 2.4rem; }
 ```
 
 **Furhter reading on this subject** [4 Simple Steps to Vertical Rhythm](http://typecast.com/blog/4-simple-steps-to-vertical-rhythm) [Aesthetic Sass 3: Typography and Vertical Rhythm](https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm) [CSS Baseline: The Good, The Bad And The Ugly](https://www.smashingmagazine.com/2012/12/css-baseline-the-good-the-bad-and-the-ugly/) [Using Sass & Compass Vertical Rhythm to set up typography defaults in a project.](https://medium.com/@amlinarev/using-sass-compass-vertical-rhythm-to-set-up-typography-defaults-in-a-project-34fe2f1d2c02#.4qrws1cww)

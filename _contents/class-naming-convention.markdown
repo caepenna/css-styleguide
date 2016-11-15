@@ -5,7 +5,7 @@ permalink: /contents/class-naming-convention
 description: How to name your CSS classes
 ---
 
-For most of our overall CSS architecutre, and specially for our class naming convention, we'll be using [RSCSS](http://rscss.io).
+For most of our overall CSS architecutre, and specially for our class naming convention, we'll be using [RSCSS](http://rscss.io) as a reference and inspiration.
 
 In simple terms, we'll have classes for components and for elements inside the components. Components will be named with at least two words, separated by a dash, and elements shall have no dashes, only lowercase letters.
 

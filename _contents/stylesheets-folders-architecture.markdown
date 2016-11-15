@@ -4,7 +4,7 @@ title:  "Stylesheets Folder Architecture"
 permalink: /contents/stylesheets-folder-architecture
 ---
 
-The CSS rules should be organized in four different folders. These categories are listed below from the most generic to the more specific (the alphabetical order matches this same order for practical purposes).
+The CSS rules should be organized in three different folders. These categories are listed below from the most generic to the more specific (the alphabetical order matches this same order for practical purposes).
 
 > This architecture is heavily influenced by the [SMACSS Framework](https://smacss.com) and its [CSS Rules Categorization](https://smacss.com/book/categorizing).
 

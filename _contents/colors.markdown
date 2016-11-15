@@ -96,7 +96,7 @@ In order to a better management of the amount of grays and the use of them, we s
 
 ## Color Names
 
-**It should never be used in a project**! Use it only for fast prototyping and testing specific components.
+It should never be used in a project. Use it only for fast prototyping and testing specific components.
 
 ```scss
 color: red;
