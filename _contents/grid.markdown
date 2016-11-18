@@ -14,7 +14,7 @@ Not all layouts will have a column system, threfore the use of columns are not m
 
 **Our Solution**
 
-We aimed to create a framework that would work inside any container, regardless of its width. We just wanted to customize 3 variables: the widht of the element container columns, the number of columns (`$nOfColumns`) and the gutter between columns (`$gutter`). Then the columns width would be adapted accordingly.
+We aimed to create a framework that would work inside any container, regardless of its width. We just wanted to customize 3 variables: the width of the element container columns, the number of columns (`$nOfColumns`) and the gutter between columns (`$gutter`). Then the columns width would be adapted accordingly.
 
 Our solution is a Sass based system that could be set in any layout/component.
 
