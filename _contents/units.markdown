@@ -32,7 +32,7 @@ p {font-size: 16pt;}
 
 If the project have a consistent vertical rhythm, the `line-height` property should have a value multiple of the _vertical grid module_ of the vertical grid module in the project.
 
-More information on [Vertical grid](#vertical-grid).
+More information on [Vertical grid](https://flama.github.io/css-styleguide/contents/grid#vertical-grid).
 
 **Project WITH consistent vertical rhythm**
 
