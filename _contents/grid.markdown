@@ -4,7 +4,7 @@ title:  "Grid"
 permalink: /contents/grid
 ---
 
-## Horizontal gird
+## Horizontal grid
 
 **Why columns? When to use?**
 

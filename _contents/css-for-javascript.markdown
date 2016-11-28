@@ -6,13 +6,13 @@ permalink: /contents/css-for-javascript
 
 ## Controlling DOM elements with Javascript
 
-Don't use CSS classes to query for DOM elements on JavaScript.
+Don't use CSS classes to query DOM elements on JavaScript.
 
 Set `role` attribute to your components and leave CSS classes for styling purposes only because it isn't obvious which class names are for styles and which have JS behaviors bound to them.
 
 _Need to include a study about perfomance when querying through role attribute._
 
-_Need to include a reference on not using classes to query from DOM elements._
+_Need to include a reference on not using classes to query DOM elements._
 
 **Wrong**
 
