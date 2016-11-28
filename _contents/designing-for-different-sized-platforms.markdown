@@ -45,7 +45,7 @@ $xxlarge-up:   "only screen and (min-width:#{lower-bound($xxlarge-range)})" !def
 
 Also, when setting dimensions for containers and main structural components, try using both fixed values and relative values so you can control how much it will vary according to the viewport, for example:
 
-**Right**
+**Avoid**
 
 ```scss
 .container {
@@ -54,7 +54,7 @@ Also, when setting dimensions for containers and main structural components, try
 }
 ```
 
-**Wrong**
+**Prefer**
 
 ```scss
 .container {
