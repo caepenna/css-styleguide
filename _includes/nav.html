@@ -1,6 +1,4 @@
-<nav class="sidebar-nav">
-
-  <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}-current{% endif %}" >{{ site.title }}</a>
+<nav class="sidebar-nav" role="display-mobile-nav">
 
   {% for content in site.contents %}
     <a href="{{ content.permalink | prepend: site.baseurl }}" class="{% if page.url == content.permalink %}-current{% endif %}" >{{ content.title }}</a>
